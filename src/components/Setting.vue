@@ -13,19 +13,17 @@
   <!--  <li><a>云端保存</a></li>-->
   <li class="element-title"><span>关于本项目</span></li>
   <div>
-    <p style="color: red">暂未开发云端功能，本次构建版本为v3.0.0测试版。</p>
+    <p style="color: red">无云端功能，本次构建版本为v3.0.0。</p>
     <h4>作者：</h4>
-    <p>ZhangDi，https://git.io/zd，<br>QQ群 1065753778 欢迎加入</p>
+    <p>ZhangDi，https://git.io/zd，<br>群 1065753778</p>
     <h4>项目介绍：</h4>
     <p>本项目使用Vue3构建，推荐使用Chrome内核浏览器。</p>
     <h4>项目地址：</h4>
     <p>https://github.com/zzd/Simple-Search-Page</p>
     <h4>BUG反馈：</h4>
     <a href="https://github.com/zzd/Simple-Search-Page/issues/new/choose">Github issues</a>
-    <h4>样式参考：</h4>
-    <p>万花筒：wht.im</p>
     <h4>版权声明：</h4>
-    <p>本项目代码均为原创，仅参考了WHT的设计思路。仅v1.x版本开源，此后的版本不开源，尊重版权，请勿剽窃代码。</p></div>
+    <p>本项目开源。</p></div>
 </template>
 
 <script>

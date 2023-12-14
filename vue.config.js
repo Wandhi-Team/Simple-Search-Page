@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2021. ZHANGDI Studio All Rights Reserved.
+ * Copyright (c) 2024. ZHANGDI Studio All Rights Reserved.
  */
 module.exports={
     publicPath:'/',

@@ -20,7 +20,7 @@
         <li :class="{selected:this.$route.path==='/'}">
           <router-link to="/">首页</router-link>
         </li>
-        <li :class="{selected:this.$route.path==='/nav'}">
+<!--    <li :class="{selected:this.$route.path==='/nav'}">
           <router-link to="/nav">导航</router-link>
         </li>
         <li :class="{selected:this.$route.path==='/software'}">
@@ -29,19 +29,19 @@
         <li :class="{selected:this.$route.path==='/os'}">
           <router-link to="/os">系统</router-link>
         </li>
-
+-->
       </ul>
     </div>
     <router-view></router-view>
     <!--    <Background @background="set_background"></Background>-->
     <div id="message"></div>
-    <div id="foot">©2018-2022
-      <a class="out_link" href="https://zhangdi.net/" target="_blank">ZHANGDI.</a> All rights reserved.
+    <div id="foot">©2018-2024
+      <a class="out_link" href="https://zhangdi.net/" target="_blank">zhangdi.</a> All rights reserved.
       <a class="out_link beian" href="http://beian.miit.gov.cn/" target="_blank">蜀ICP备18024871号</a>
 <!--      <a href="https://github.com/zzd/Simple-Search-Page" style="font-size: 12px;" target="_blank">-->
 <!--        <span class="tag_box">v{{ version }} Vue 测试版</span></a>-->
-      <a href="https://github.com/zzd/Simple-Search-Page" style="font-size: 12px;" target="_blank">
-        <span class="tag_box">Vue 测试版</span></a>
+<!--      <a href="https://github.com/zzd/Simple-Search-Page" style="font-size: 12px;" target="_blank">
+        <span class="tag_box">Vue</span></a>-->
     </div>
   </div>
 </template>
