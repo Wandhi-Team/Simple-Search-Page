@@ -13,7 +13,7 @@
   <!--  <li><a>云端保存</a></li>-->
   <li class="element-title"><span>关于本项目</span></li>
   <div>
-    <p style="color: red">无云端功能，本次构建版本为v3.0.0。</p>
+    <p style="color: red">无云端功能，本次构建版本为v3.0.1。</p>
     <h4>作者：</h4>
     <p>ZhangDi，https://git.io/zd，<br>群 1065753778</p>
     <h4>项目介绍：</h4>
