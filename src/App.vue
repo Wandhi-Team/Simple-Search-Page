@@ -36,7 +36,8 @@
     <div id="message"></div>
     <div id="foot">©2018-2024
       <a class="out_link" href="https://www.zhangdi.net/" target="_blank">ZHANGDI</a> 版权所有
-      <a class="out_link beian" href="https://beian.miit.gov.cn/" target="_blank">蜀ICP备18024871号</a> 
+      <a class="out_link beian" href="https://beian.miit.gov.cn/" target="_blank">蜀ICP备18024871号</a>
+      <a></a>
       <a class="out_link beian" href="https://beian.mps.gov.cn/#/query/webSearch?code=51019002006069" target="_blank">川公网安备51019002006069号</a>
       <!--      <a href="https://github.com/zzd/Simple-Search-Page" style="font-size: 12px;" target="_blank">-->
       <!--        <span class="tag_box">v{{ version }} Vue 测试版</span></a>-->
