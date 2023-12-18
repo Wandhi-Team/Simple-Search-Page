@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://hao.zdsr.cn/" target="_blank">
+  <a href="./" target="_blank">
     <img width="180" src="https://s1.ax1x.com/2020/06/13/tvwVuF.png" alt="logo">
   </a>
 </p>
@@ -14,6 +14,7 @@
 # simple-search-page-vue
 
 3.0.0新版来了，基于Vue实现。  
+
 This template should help get you started developing with Vue 3 in Vite.
 
 ## Recommended IDE Setup
