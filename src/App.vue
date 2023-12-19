@@ -16,8 +16,8 @@
   </div>
   <div id="content" ref="content" @click="menu_close()">
     <div id="top-menu-list">
-      <!-- <div id="tp-weather-widget"></div> -->
-      <div id="he-plugin-simple"></div>
+      <div id="tp-weather-widget"></div>
+      <!-- <div id="he-plugin-simple"></div> -->
       <!-- <ul id="top-menu-ul">
         <li :class="{ selected: this.$route.path === '/' }">
           <RouterLink to="/">首页</RouterLink>
@@ -95,34 +95,46 @@ export default {
   mounted() {
     this.$refs.content.style.background = this.background
   },
-  created() {
-    window.WIDGET = {
-      "CONFIG": {
-        "modules": "01234",
-        "background": "5",
-        "tmpColor": "444444",
-        "tmpSize": "14",
-        "cityColor": "444444",
-        "citySize": "14",
-        "aqiColor": "444444",
-        "aqiSize": "14",
-        "weatherIconSize": "18",
-        "alertIconSize": "18",
-        "padding": "10px 10px 10px 10px",
-        "shadow": "0",
-        "language": "auto",
-        "fixed": "false",
-        "vertical": "top",
-        "horizontal": "left",
-        "key": "f0021b718b1f414ab41f030ae41fe06e"
-      }
-    }
-    var script = document.createElement('script');
-    script.type = 'text/javascript';
-    script.src = 'https://widget.qweather.net/simple/static/js/he-simple-common.js?v=2.0';
-    document.getElementsByTagName('head')[0].appendChild(script);
-  },
+  // created() {
+  //   window.WIDGET = {
+  //     "CONFIG": {
+  //       "modules": "01234",
+  //       "background": "5",
+  //       "tmpColor": "444444",
+  //       "tmpSize": "14",
+  //       "cityColor": "444444",
+  //       "citySize": "14",
+  //       "aqiColor": "444444",
+  //       "aqiSize": "14",
+  //       "weatherIconSize": "18",
+  //       "alertIconSize": "18",
+  //       "padding": "10px 10px 10px 10px",
+  //       "shadow": "0",
+  //       "language": "auto",
+  //       "fixed": "false",
+  //       "vertical": "top",
+  //       "horizontal": "left",
+  //       "key": "f0021b718b1f414ab41f030ae41fe06e"
+  //     }
+  //   }
+  //   var script = document.createElement('script');
+  //   script.type = 'text/javascript';
+  //   script.src = 'https://widget.qweather.net/simple/static/js/he-simple-common.js?v=2.0';
+  //   document.getElementsByTagName('head')[0].appendChild(script);
+  // },
 };
+(function (a, h, g, f, e, d, c, b) { b = function () { d = h.createElement(g); c = h.getElementsByTagName(g)[0]; d.src = e; d.charset = "utf-8"; d.async = 1; c.parentNode.insertBefore(d, c) }; a["SeniverseWeatherWidgetObject"] = f; a[f] || (a[f] = function () { (a[f].q = a[f].q || []).push(arguments) }); a[f].l = +new Date(); if (a.attachEvent) { a.attachEvent("onload", b) } else { a.addEventListener("load", b, false) } }(window, document, "script", "SeniverseWeatherWidget", "//cdn.sencdn.com/widget2/static/js/bundle.js?t=" + parseInt((new Date().getTime() / 100000000).toString(), 10)));
+window.SeniverseWeatherWidget('show', {
+  flavor: "slim",
+  location: "WM6N2PM3WY2K",
+  geolocation: true,
+  language: "auto",
+  unit: "c",
+  theme: "light",
+  token: "9001d4ec-2be3-43fc-9a16-abf98f1deaf9",
+  hover: "enabled",
+  container: "tp-weather-widget"
+})
 </script>
 
 <style lang='less'>
